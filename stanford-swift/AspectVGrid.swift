@@ -51,6 +51,6 @@ struct AspectVGrid<Item: Identifiable, ItemView: View>: View {
 //
 //        } while columnCount < count
 //            return min(size.width / count, size.height * aspectRatio).rounded(.down)
-        return 150
+        return 85
     }
 }
